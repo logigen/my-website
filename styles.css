@@ -90,9 +90,7 @@ li {
   overflow: hidden;
   width: 200px;
   height: 200px;
-  left: 0%;
-    margin-right: -50%;
-    transform: translate(100%, 0%) 
+ 
 }
 .circle-image img{
   width:100%;
