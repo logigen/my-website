@@ -39,6 +39,7 @@ section {
   max-width: 100%; /* Увеличили максимальную ширину блока до 45% */
   padding: 15px; /* Увеличили отступы внутри блока */
   box-sizing: border-box;
+  text-align: left; /* Оставляем текст выровненным по левому краю */
 }
 
 /* Стили заголовков */
@@ -81,19 +82,24 @@ li {
   }
 }
 
-.circle-image{
-  text-align: center;
-  
+/* Стиль для круглых изображений */
+.circle-image {
+  display: flex;
+  justify-content: center; /* Центрируем картинку */
+  margin-bottom: 15px; /* Отступ от текста */
+}
 
-  display: inline-block;
-  border-radius: 100%;
-  overflow: hidden;
+.circle-image img {
+  border-radius: 50%; /* Делаем изображение круглым */
   width: 200px;
   height: 200px;
- 
-}
-.circle-image img{
-  width:100%;
-  height:100%;
   object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .circle-image img {
+    width: 150px; /* Меньший размер для мобильных устройств */
+    height: 150px;
+  }
 }
