@@ -8,8 +8,23 @@ body {
   line-height: 1.6;
 }
 
+.nav-container
+{
+  display: flex;
+  align-items: justify;
+}
 /* Стили для навигации и заголовка */
-header nav h1 {
+/* header nav h1 {
+  text-align: center;
+  background-color: #57a177;
+  color: white;
+  padding: 20px;
+  font-size: 2rem;
+  margin: 0;
+}
+*/
+.h1-title {
+  width:100%;
   text-align: center;
   background-color: #57a177;
   color: white;
