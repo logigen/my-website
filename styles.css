@@ -71,7 +71,7 @@ li {
 }
 
 /* Мобильная адаптация */
-@media (max-width: 768px) {
+@media (max-width: auto) {
   main {
       flex-direction: column; /* Секции будут вертикально на маленьких экранах */
       padding: 0 10px;
@@ -97,7 +97,7 @@ li {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: auto) {
   .circle-image img {
     width: 150px; /* Меньший размер для мобильных устройств */
     height: 150px;
