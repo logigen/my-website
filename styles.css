@@ -11,18 +11,42 @@ body {
 .nav-container
 {
   display: flex;
-  
+  justify-content: center;
 }
-/* Стили для навигации и заголовка */
-/* header nav h1 {
-  text-align: center;
+
+header {
   background-color: #57a177;
   color: white;
-  padding: 20px;
-  font-size: 2rem;
-  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-*/
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #E8F4F8;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
 .h1-title {
   width:100%;
   text-align: center;
